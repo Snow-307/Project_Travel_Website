@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Raleway:wght@500;600;700&display=swap');
+
+.discover_card
+{
+    position: relative ;
+    width: 200px; ;
+    overflow: var(hidden);
+}
+.discover_data
+{
+    position: absolute;
+    bottom: 1.5rem;
+    left: 1rem;
+}
+.discover_title,
+.discover_description
+{
+    color: white;
+}
+.discover_card{
+    font-size: var();
+    margin-bottom: var(--mb-0-25);
+}
+.discover_description{
+    display: block;
+    font-size: var(--smaller-font-size);
+}
+.discover_img{
+    transition: img;
+}
+
+.discover_img:hover{
+
+        position: absolute;
+        transform: translate(-50%, -50%);
+        transition: transform 0.3s ease-in-out;
+        clip-path: triangle();
+        background-repeat: no-repeat;    
+    
+        transform: translate(-60%, -60%);
+        box-shadow: 3px 3px 10px black;
+        z-index: 1;
+}
+    

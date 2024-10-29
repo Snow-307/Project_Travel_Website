@@ -1,0 +1,80 @@
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css"  href="form.css">
+        <title>Reservation Form</title>
+    </head>
+<body class="body1" background="form_bg.jpg">
+<p class="title"> RESERVATION FORM</p>
+<div class="box">
+ <div class="box_content">
+<form>
+    <img src="user-fill.png" alt="">Name:   <br>
+ <input type="text" name="name" placeholder="Your Name" size="30" >
+ <BR><br>
+    <img src="calendar-2-fill.png" alt="">Arrival Date: <br>
+ <input type="date" name="arrivaldate" placeholder="dd/mm/yyyy" size="30">
+ <br><br>
+ <img src="calendar-2-fill.png" alt="">Departure Date: <br>
+ <input type="date" name="departuredate" placeholder="dd/mm/yyyy" size="30">
+ <br><br>
+ <img src="home-2-fill.png" alt="">Choose Room: <br>
+<select name="rooms" placeholder="Rooms" >
+    <option value="room1"> Single Rooms          </option>
+    <option value="room2"> Double Rooms</option>
+    <option value="room3"> Studio Rooms</option>
+    <option value="room4"> Deluxe Rooms</option>
+   <option value="room5">  Presidential Suites </option>
+</select>
+
+</div>
+<div class="right_content">
+   <img src="mail-line.png" >Email: <br>
+    <input type="text" name="email" placeholder="Your Email" size="30">
+<br><br>
+<img src="time-line.png" >Time:<br>
+ <input type="time" name="time" placeholder="Hrs:Min" size="30">
+<br><Br>
+    <img src="time-line.png" >Time:<br>
+    <input type="time" name="time" placeholder="Hrs:Min" size="30">  
+    <br><br>
+    <img src="team-fill.png" >No Of People: <br>
+    <input type="text" name="people" placeholder="Persons" size="30">
+    <div class="submit">
+    <button class="mybutton" type="submit"  
+    onclick="checkempty(form)">
+Make A Reservation
+</button>
+</div>
+    </div>
+</form>
+<script>
+    function checkempty(form) {
+        if (form.name.value == null ||
+            form.name.value == undefined ||
+            form.name.value.length == 0) {
+          
+            alert("Name cannot be empty\n");
+            return false;
+        } 
+       else if (form.arrivaldate.value == null ||
+            form.arrivaldate.value.length == 0) {
+          
+            alert("Arrival Date cannot be empty\n");
+            return false;
+        }
+        else if (form.departuredate.value == null ||
+            form.departuredate.value.length == 0) {
+          
+            alert("Departure Date cannot be empty\n");
+            return false;
+        }
+        
+         else {
+            alert("Your response has been recorded\n");
+            return true;
+        }
+    }
+</script>
+</div>
+</body>
+</html>

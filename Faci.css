@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap');
+
+
+.fac{
+    position: absolute;
+    top: 40px;
+    left: 450px;
+    font-family: 'Poppins', sans-serif;
+    font-weight:600;    
+    font-size:2.3em;
+    background: linear-gradient(to right, #4856f1, #7410aa);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.Taxi{
+position: relative;
+top: 40px;
+left: 700px;
+width: 400px;
+height: 400px;
+margin-top: 100px;
+background-color: #fff;
+border-radius: 5px;
+box-shadow: 0 2px 5px rgba(0, 0, 0, 0.53);
+
+}
+
+.taxi_logo{
+    position: absolute;
+    top: 29px;
+    left: 30px;
+
+}
+
+.taxi_title{
+    position: relative;
+    top: 20px;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: 600;
+    font-size: 2em;
+    text-align: center;
+}
+
+.descrip{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 1.3em;
+    text-align: left;
+    margin-left: 10px;
+}
+
+.taxi_pic{
+    position: relative;
+    left: 80px;
+    height: 150px;
+    width: 200px;
+}
+
+.Rental{
+    position: absolute;
+    top: 490px;
+    left: 140px;
+    width: 400px;
+    height: 400px;
+    margin-top: 100px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.53);
+    
+    }
+
+.ren_logo{
+    position: absolute;
+    top: 35px;
+    left: 30px;
+
+}
+
+.ren_title{
+    position: relative;
+    top: -5px;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: 600;
+    font-size: 2em;
+    text-align: center;
+}
+
+.descrip2{
+    position: absolute;
+    top: 50px;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 1.3em;
+    text-align: left;
+    margin-left: 10px;
+}
+
+.ren_pic{
+    position: relative;
+    left: 80px;
+    top: 150px;
+    height: 150px;
+    width: 200px;
+}
+
+.Packages{
+    position: absolute;
+    top: 40px;
+    left: 140px;
+    width: 400px;
+    height: 400px;
+    margin-top: 100px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.53);
+    
+    }
+
+.pack_logo{
+    position: absolute;
+    top: 35px;
+    left: 30px;
+
+}
+
+.pack_title{
+    position: relative;
+    top: -5px;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: 600;
+    font-size: 2em;
+    text-align: center;
+}
+
+.descrip3{
+    position: absolute;
+    top: 50px;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 1.3em;
+    text-align: left;
+    margin-left: 10px;
+}
+
+.pack_pic{
+    position: relative;
+    left: 80px;
+    top: -20px;
+    height: 150px;
+    width: 200px;
+}
